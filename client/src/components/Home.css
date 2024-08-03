@@ -1,0 +1,22 @@
+/* Home.css */
+.home-container {
+    display: flex;
+    flex-direction: row; /* Change to column to stack image and text */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.event-image {
+    width: 100%; /* Adjust size as needed */
+    max-width: 600px; /* Limit the maximum width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional styling */
+}
+
+.welcome-style {
+    color: blueviolet;
+    font-style: italic;
+    font-weight: bold;
+}

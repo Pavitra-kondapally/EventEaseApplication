@@ -1,0 +1,92 @@
+/* client/src/components/Events.css */
+
+.events-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center; /* Center align the event cards */
+  }
+  
+  .event-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9; /* Light background color for cards */
+  }
+  
+  .event-card h3 {
+    margin-top: 0;
+  }
+  
+  .event-card p {
+    margin: 0.5rem 0;
+  }
+  
+  .event-card .bold {
+    font-weight: bold;
+  }
+  
+  .event-card button {
+    margin-right: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .event-card-edit {
+    background-color: #007bff; /* Blue for Edit */
+  }
+  
+  .event-card-delete {
+    background-color: #dc3545; /* Red for Delete */
+  }
+  
+  .event-card-add {
+    background-color: #28a745; /* Green for Add */
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center; /* Center align error messages */
+  }
+  
+  input, textarea {
+    display: block;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 80%; /* Increase size of input fields */
+  }
+  
+  input[type="text"], input[type="date"] {
+    height: 2rem; /* Increase height of text and date inputs */
+  }
+  
+  textarea {
+    height: 6rem; /* Increase height of textarea */
+    resize: vertical; /* Allow vertical resizing only */
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    margin: 0.5rem auto;
+    display: block;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  h2 {
+    text-align: center; /* Center align the events heading */
+  }
+  
